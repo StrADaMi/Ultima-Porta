@@ -1,0 +1,101 @@
+.font-link {
+  font-family: "Gloock", cursive;
+}
+.welcome-message {
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1,
+p {
+  font-family: "Gloock", cursive;
+  text-align: center;
+  margin-top: 60px;
+}
+p {
+  font-size: 25px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-text {
+  font-family: "Gloock", cursive;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgb(104, 85, 1);
+  margin-top: 30px;
+  text-shadow: 0px 5px 1px rgba(255, 223, 0, 0.4);
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.quote-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  border-left: 5px solid gold;
+}
+
+.quote-author {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 10px;
+}
+#logo-image {
+  margin-bottom: 30px;
+  display: block;
+  margin-top: 50px;
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(0px 10px 500px rgb(250, 238, 4));
+}
+#offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#offer-subtext {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+#offer-subtext button {
+  font-size: 30px;
+}
+
+#offer-subtext > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#offer-subtext > div > div {
+  display: none;
+}
+
+#offer-subtext > div > div.visible {
+  display: block;
+}
+.button:hover {
+  cursor: pointer;
+}
+.invisible {
+  display: none;
+}
